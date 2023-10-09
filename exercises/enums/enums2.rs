@@ -1,7 +1,5 @@
 // enums2.rs
-//
-// Execute `rustlings hint enums2` or use the `hint` watch subcommand for a
-// hint.
+// Execute `rustlings hint enums2` or use the `hint` watch subcommand for a hint.
 
 // I AM NOT DONE
 
@@ -12,7 +10,7 @@ enum Message {
 
 impl Message {
     fn call(&self) {
-        println!("{:?}", self);
+        println!("{:?}", &self);
     }
 }
 
